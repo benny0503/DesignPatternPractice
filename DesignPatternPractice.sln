@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternPractice", "DesignPatternPractice\DesignPatternPractice.csproj", "{9E9AB9D9-3053-4374-98DE-DE467934D32C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternPractice", "DesignPatternPractice\DesignPatternPractice.csproj", "{9E9AB9D9-3053-4374-98DE-DE467934D32C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{BB850453-ECE9-48FA-991B-11BDC6EFC853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{1D790813-1852-4CCD-81D4-4044BD7A9526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9E9AB9D9-3053-4374-98DE-DE467934D32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E9AB9D9-3053-4374-98DE-DE467934D32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E9AB9D9-3053-4374-98DE-DE467934D32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB850453-ECE9-48FA-991B-11BDC6EFC853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB850453-ECE9-48FA-991B-11BDC6EFC853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB850453-ECE9-48FA-991B-11BDC6EFC853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB850453-ECE9-48FA-991B-11BDC6EFC853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D790813-1852-4CCD-81D4-4044BD7A9526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D790813-1852-4CCD-81D4-4044BD7A9526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D790813-1852-4CCD-81D4-4044BD7A9526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D790813-1852-4CCD-81D4-4044BD7A9526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
